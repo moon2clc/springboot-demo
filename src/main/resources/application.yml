@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+
+  ### themeleaf
+  thymeleaf:
+    suffix: .html
+    mode: HTML5
+    encoding: utf-8
+    cache: false
+    prefix: classpath:/templates/pages/
+    servlet:
+      content-type: text/html
+
+### mybatis
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.clc.springbootdemo.model
