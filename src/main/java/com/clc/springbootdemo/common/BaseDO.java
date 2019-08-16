@@ -16,6 +16,6 @@ public class BaseDO {
     private String updateUserId; //修改人id
     private String updateUserName; //修改人名称
     private Date updateDate; //修改时间
-    private Integer isDeleted = 0; //是否删除(默认0 删除1)
+    private Integer isDeleted; //是否删除(默认0 删除1)
     private Integer version; //数据版本（乐观锁）
 }
