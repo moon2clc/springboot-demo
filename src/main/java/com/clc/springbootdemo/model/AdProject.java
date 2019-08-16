@@ -1,14 +1,14 @@
 package com.clc.springbootdemo.model;
 
+import com.clc.springbootdemo.common.BaseDO;
 import lombok.Data;
 
 import java.util.Date;
 
 @Data
-public class AdProject {
-
+public class AdProject extends BaseDO {
     private String id;
     private String name;
-    private Date starttime;
-    private Date endtime;
+    private Date startTime;
+    private Date endTime;
 }
